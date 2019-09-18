@@ -1,0 +1,12 @@
+body {
+    background-image: url("dwight.jpg");
+    margin: auto;
+    background-size: 90em;
+    background-image: cover;
+    height: auto;
+    width: auto;
+}
+
+div .content {
+    align-content: center;
+}
