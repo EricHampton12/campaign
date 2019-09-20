@@ -1,12 +1,13 @@
 body {
-    background-image: url("dwight.jpg");
+    background-image: url("campaign-dwight\ 2.20.36\ PM.jpg");
     margin: auto;
-    background-size: 90em;
-    background-image: cover;
+    background-size: 70em;
+    background-attachment: fixed;
     height: auto;
     width: auto;
 }
 
-div .content {
-    align-content: center;
+.my-container{
+   justify-content: flex-start;
 }
+
