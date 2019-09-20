@@ -19,37 +19,39 @@
 
 
   .container {
-    border: 3px red solid;
-    color: white;
+
+    color: black solid;
     text-align: center;
   }
 
   .row {
     align-content: center;
-    border: 4px blue solid;
-    color: white;
+
+    color: black solid;
   }
 
   .col {
     align-content: center;
-    border: 3px yellow solid;
+
     color: white;
   }
 
   .my-container {
-    
+
     background-color: rgba(165, 154, 164, 0.824);
     text-align: center;
   }
 
   .my-row {
-    border: 4px dotted green solid;
+
     color: white;
     text-align: center;
   }
 
+
+
   .my-col {
-   
+
     text-align: center;
   }
 </style>
@@ -68,14 +70,14 @@
           <a class='nav-link' href="index.html">Home</a>
         </li>
         <li class='nav-item'>
-          <a class='nav-link' href="#more-info">Beliefs</a>
+          <a class='nav-link' href="#beliefs">Beliefs</a>
         </li>
         <li class='nav-item'>
           <a class='nav-link' href="#contact">Contact</a>
         </li>
         <li class='nav-item'>
-            <a class='nav-link' href="#VotingDay">Voting Day</a>
-          </li>
+          <a class='nav-link' href="#VotingDay">Voting Day</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -83,21 +85,24 @@
 
   <div class='container-fluid' id='background'>
     <div class='row align-items-center' id='firstRow'>
-      <div class='col-lg-4-sm12 p-1 align-items-center'>
-        <img src="schrute-banner.png">
+      <div class='col-lg-4-sm12 p-3 align-items-center'>
+        <img src="schrute-banner.png" class="img-fluid">
         <h1 class="text" id="VotingDay">
-          
-          <!-- Call to action date -->
-          <strong>Tuesday November 5th<br>2019</strong</center> </h1> </div> </div> <div class="row p-3">
+          <h1><strong>Vote Schrute for Constable</strong></h1>
+
+          <!--. Call to action date -->
+          <h1><strong>Tuesday, November 5th<br>2019</strong</center> </h1> </div> </div> <div class="row p-3">
               <div class="col-lg-8 p-4 text-white bg-secondary">
                 <h2><i>Dwight Schrute</i></h2>
                 <!-- Story for voters who do not know Dwight.
                 Info is put into a list with skills and experience related to the job. -->
-                <p><b>Qualifications:</b></p> 
+                <p><b>About:</b></p>
                 <ul id='moreInfo'>
-                  <li class='py-2'>Dwight has spent the last 10 years as a volunteer Sherrifs Deputy. His experience to
+                  <li class='py-2'>Dwight has spent more than 10 years as a volunteer Sherrifs Deputy. His experience to
                     ful-fill
                     this position is adequate.</li>
+                  <li class='py-2'>As well as being a volunteer sherrifs deputy, Dwight also owns a 60 acre Beet Farm
+                    along with his brother Mose.</li>
                   <li class='py-2'>His will protect this city like it is a freshly grown beet. His passion for beets and
                     protecting others is unmatched.</li>
                   <li class='py-2'>Dwight's vast compendium of other talents and skills include, but are not limited to:
@@ -109,35 +114,45 @@
                 </ul>
               </div>
               <div class="row p-3">
+                <class id="beliefs"></a>
+
                 <div class="col-lg-8 p-4 text-white bg-secondary">
-                  
                   <h2><i>Dwight Schrute<br> supports:</i></h2>
-                    <!-- This story is for people who do not know Dwight or what he believes in or stands for. -->
-                  <ul id='moreInfo'>
-                    <table class="table table-sm table-bg-secondary">
-                      <thead>
-                        <tr>
-                          <th scope="col">Agriculture Industry</th>
-                        </tr>
-                     
-                      <tbody>
-                        <tr>
-                          <th scope="row">Extra-curricular Activities</th>
-
-                        </tr>
-                        <tr>
-                          <th scope="row">Surveliance and Survival training.</th>
-
-                        </tr>
-                        <tr>
-                          <th scope="row">Law and Justice. </th>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </ul>
+                  <a class <!-- This story is for people who do not know Dwight or what he believes in or stands for.
+                    -->
+                    <ul id='moreInfo'>
+                      <table class="table table-sm table-bg-secondary">
+                        <thead>
+                          <tr>
+                            <th scope="col">Agriculture Industry</th>
+                          </tr>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Extra-curricular Activities</th>
+                          </tr>
+                          <tr>
+                            <th scope="row">Surveliance and Survival training.</th>
+                          </tr>
+                          <tr>
+                            <th scope="row">Law and Justice. </th>
+                          </tr>
+                          <tr>
+                            <th scope="row"><i>Below are some images of Dwight on his farm, and of his time spent as a
+                                volunteer Sherrifs Deputy.</i> </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </ul>
+                    <div class="col-lg-6 text-white bg-secondary ">
+                      <div class="col">
+                        <span class="border border-primary">
+                          <img src="dwight-farm.jpg" alt="..." class="img-fluid">
+                        </span>
+                        <img src="dwight-sherrif.jpg" alt="" class="img-fluid">
+                      </div>
+                    </div>
                 </div>
-
-                <div class="col-8">
+                <div class="col-10">
                   <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="list-home" role="tabpanel"
                       aria-labelledby="list-home-list">
@@ -154,7 +169,7 @@
       </div>
     </div>
   </div>
-  <div class="container mt-5 my-container">
+  <div class="container mt-2 my-container">
     <div class="row my-row">
       <div class="col-lg-8 p-2 text-white">
         <h2 id="contact">Contact Info</h2>
@@ -164,7 +179,8 @@
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
               placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+              else.</small>
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
@@ -175,7 +191,7 @@
         <form>
           <div class="form-row align-items-center">
             <div class="col-auto my-1">
-              <label class="mr-sm-2" for="inlineFormCustomSelect">Vote Here</label>
+              <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
               <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
                 <option selected>Choose...</option>
                 <option value="1">Yes</option>
@@ -184,10 +200,6 @@
               </select>
             </div>
             <div class="col-auto my-1">
-              <div class="custom-control custom-checkbox mr-sm-2">
-                <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
-                <label class="custom-control-label" for="customControlAutosizing">Remember my vote</label>
-              </div>
             </div>
             <div class="col-auto my-1">
               <button type="submit" class="btn btn-primary">Submit</button>
@@ -196,19 +208,25 @@
         </form>
       </div>
     </div>
-  </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+           <h2><i>For more information about Dwight please visit <a href="https://en.wikipedia.org/wiki/Dwight_Schrute">Dwight-Schrute.com</i></a></h2>
+    </footer>
 
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
